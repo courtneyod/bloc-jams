@@ -62,11 +62,15 @@ body.landing {
 	text-decoration: none;
 	cursor: pointer;
 }
-	
-.links-container .navbar-link:hover {
-	color: rgb(233, 50, 117);
+
+.links-container .navbar-link:active {
+	background-color: white;
 }
 
+.links-container .navbar-link:hover {
+	color: rgb(233,50,117);
+}
+	
 /* Medium and small screeen (640px) */
 	@media (min-width: 40rem) {
 		html {font-size: 112% }

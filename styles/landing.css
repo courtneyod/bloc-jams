@@ -47,6 +47,13 @@
      transition-delay: 0.2s;
 }
 
+.point:hover {
+  transition-property: opacity;
+  transition-duration: 3s;
+  transition-delay: 1s;
+  opacity: .0;
+}
+
 .point .point-title {
 	font-size: 1.25rem;
 }
